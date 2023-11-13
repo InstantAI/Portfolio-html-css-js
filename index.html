@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--============= UNICONS =============-->
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!--============= SWIPER CSS =============-->
+
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+
+    <!--============= CSS =============-->
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Instant AI</title>
+    <link rel="shortcut icon" href="./assets/img/shortcut.png" type="image/x-icon">
+    <meta name="description" content="Come check out Frédéric Navez projects about data science and artificial intelligence.">
+</head>
+
+<body>     
+    
+    <div id="main p">
+
+        <!--============= HEADER =============-->
+
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Instant AI</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link  active-link">
+                                <i class="uil uil-estate nav__icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> About
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i> Services
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-folder-open nav__icon"></i> Portfolio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#blog" class="nav__link">
+                                <i class="uil uil-blogger-alt nav__icon"></i> Blog
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__btns">
+                    
+                    <!-- Theme change button -->
+
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--============= MAIN =============-->
+
+        <main class="main">
+
+            <!--============= MAIN =============-->
+
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/frederic-navez/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="https://twitter.com/frederic_navez" target="_blank" class="home__social-icon">
+                                <i class="uil uil-twitter-alt"></i>
+                            </a>
+                            <a href="https://github.com/fnavez" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+            
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <image class="home__blob-img" x="1" y="12" xlink:href="./assets/img/picture.png"/>  
+                            </svg>
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">I'm Frédéric Navez</h1>
+                            <h3 class="home__subtitle">A Machine Learning Engineer</h3>
+                            <p class="home__description">I've been working in the AI development for 1 year. A key aspect of my work is to solve complex problems and make informed decisions within a business context. <br> Here are my thoughts, my projects and my mistakes.</p>
+                            <a href="#contact" class="button button--flex">
+                                Contact me <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--============= ABOUT =============-->
+
+            <section class="about section" id="about">
+                <h2 class="section__title">About me</h2>
+                <span class="section__subtitle"></span>
+                <div class="about__container container grid">
+                    <img src="./assets/img/about.jpg" alt="Picture of me" class="about__img">
+                    <div class="about__data">
+                        <p class="about__description">Engineer, developer, self-taught ... I also still learning how to make quality ai model.</p>
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">+01</span>
+                                <span class="about__info-name">Year experience</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">+02</span>
+                                <span class="about__info-name">Completed project</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">+01</span>
+                                <span class="about__info-name">Companies worked</span>
+                            </div>
+                        </div>
+
+                        <div class="about__buttons">
+                            <a href="./assets/pdf/resume-frederic-navez.pdf" class="button button--flex">
+                                View RESUME <i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--============= SKILLS =============-->
+
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle"></span>
+                <div class="skills__container container grid">
+
+                        <!--============= SKILLS 1 =============-->
+
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <i class="uil uil-arrow skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__title">Language</h1>
+                                    <span class="skills__subtitle">More than 1 year</span>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Python</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Bash</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Scala</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">HTML</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">CSS</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">JavaScript</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--============= SKILLS 2 =============-->
+
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-brain skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__title">Data Science</h1>
+                                    <span class="skills__subtitle">More than 1 year</span>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Numpy</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Pandas</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Matplotlib</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Seaborn</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Scikit-Learn</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Tensorflow</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Keras</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--============= SKILLS 3 =============-->
+
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-database skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__title">Data Engineering</h1>
+                                    <span class="skills__subtitle">More than 1 year</span>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">SQL</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">API</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Webscraping</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Data base</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">PySpark</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--============= SKILLS 4 =============-->
+
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-code-branch skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__title">DataOps</h1>
+                                    <span class="skills__subtitle">More than 1 year</span>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Docker</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Kubernetes</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Unit Testing</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Airflow</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">AWS SageMaker</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Git</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">API Security</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">AWS Solutions Architect</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--============= SKILLS 5 =============-->
+
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-cog uil skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__title">ModelOps</h1>
+                                    <span class="skills__subtitle">More than 1 year</span>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">ML Flow</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">AWS Certified Cloud Practitioner</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Fast API</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--============= SKILLS 6 =============-->
+                        
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-presentation-line skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__title">Monitoring</h1>
+                                    <span class="skills__subtitle">More than 1 year</span>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Prometheus</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Grafana</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Acculturation Data</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Data Governance</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Power BI</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </section>
+
+            <!--============= TIMELINE =============-->
+
+            <section class="timeline section">
+                <h2 class="section__title">My Timeline</h2>
+                <span class="section__subtitle"></span>
+                <div class="timeline__container container">
+                    <div class="timeline__tabs">
+                        <div class="timeline__button button--flex timeline__active" data-target="#education">
+                            <i class="uil uil-graduation-cap timeline__icon"></i>
+                            Education
+                        </div>
+                        <div class="timeline__button button--flex" data-target="#work">
+                            <i class="uil uil-briefcase-alt timeline__icon"></i>
+                            Work
+                        </div>
+                    </div>
+
+                    <div class="timeline__sections">
+                        
+                        <!--============= TIMELINE CONTENT 1 =============-->
+
+                        <div class="timeline__content timeline__active" data-content id="education">
+
+                            <!--============= TIMELINE 1 =============-->
+
+                            <div class="timeline__data">
+                                <div>
+                                    <h3 class="timeline__title">January 1994</h3>
+                                    <span class="timeline__subtitle">Started my life journey in North of France</span>
+                                </div>
+                                <div>
+                                    <span class="timeline__rounder"></span>
+                                    <span class="timeline__line"></span>
+                                </div>
+                            </div>
+
+                            <!--============= TIMELINE 2 =============-->
+
+                            <div class="timeline__data">
+                                <div></div>
+                                <div>
+                                    <span class="timeline__rounder"></span>
+                                    <span class="timeline__line"></span>
+                                </div>
+                                <div>
+                                    <h3 class="timeline__title">September 2014</h3>
+                                    <span class="timeline__subtitle">Started a 3rd year BSc degree in biochemistry</span>
+                                </div>
+                            </div>
+
+                            <!--============= TIMELINE 3 =============-->
+
+                            <div class="timeline__data">
+                                <div>
+                                    <h3 class="timeline__title">July 2019</h3>
+                                    <span class="timeline__subtitle">Got my BSc degree in biochemistry</span>
+                                </div>
+                                <div>
+                                    <span class="timeline__rounder"></span>
+                                    <span class="timeline__line"></span>
+                                </div>
+                            </div>
+
+                            <!--============= TIMELINE 4 =============-->
+
+                            <div class="timeline__data">
+                                <div></div>
+                                <div>
+                                    <span class="timeline__rounder"></span>
+                                    <span class="timeline__line"></span>
+                                </div>
+                                <div>
+                                    <h3 class="timeline__title">September 2019</h3>
+                                    <span class="timeline__subtitle">Started my MSc degree in Biology and Health Sciences</span>
+                                </div>
+                            </div>
+
+                            <!--============= TIMELINE 5 =============-->
+
+                            <div class="timeline__data">
+                                <div>
+                                    <h3 class="timeline__title">July 2022</h3>
+                                    <span class="timeline__subtitle">Got my MSc degree in Biology and Health Sciences</span>
+                                </div>
+                                <div>
+                                    <span class="timeline__rounder"></span>
+                                    <span class="timeline__line"></span>
+                                </div>
+                            </div>
+
+                            <!--============= TIMELINE 6 =============-->
+
+                            <div class="timeline__data">
+                                <div></div>
+                                <div>
+                                    <span class="timeline__rounder"></span>
+                                    <span class="timeline__line"></span>
+                                </div>
+                                <div>
+                                    <h3 class="timeline__title">July 2022</h3>
+                                    <span class="timeline__subtitle">Got my MSc degree in Biology and Health Sciences</span>
+                                </div>
+                            </div>
+
+                            <!--============= TIMELINE 7 =============-->
+
+                            <div class="timeline__data">
+                                <div>
+                                    <h3 class="timeline__title">June 2023</h3>
+                                    <span class="timeline__subtitle">Got my Data Scientist Certificate</span>
+                                </div>
+                                <div>
+                                    <span class="timeline__rounder"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                
+                        <!--============= TIMELINE CONTENT 2 =============-->
+
+                        <div class="timeline__content" data-content id="work">
+
+                            <!--============= TIMELINE 1 =============-->
+
+                            <div class="timeline__data">
+                                <div>
+                                    <h3 class="timeline__title">January 2021</h3>
+                                    <span class="timeline__subtitle">Started my first internship as a biologist</span>
+                                </div>
+                                <div>
+                                    <span class="timeline__rounder"></span>
+                                    <span class="timeline__line"></span>
+                                </div>
+                            </div>
+
+                            <!--============= TIMELINE 2 =============-->
+
+                            <div class="timeline__data">
+                                <div></div>
+                                <div>
+                                    <span class="timeline__rounder"></span>
+                                    <span class="timeline__line"></span>
+                                </div>
+                                <div>
+                                    <h3 class="timeline__title">June 2022</h3>
+                                    <span class="timeline__subtitle">Finished my second internship as a biologist</span>
+                                </div>
+                            </div>
+
+                            <!--============= TIMELINE 3 =============-->
+
+                            <div class="timeline__data">
+                                <div>
+                                    <h3 class="timeline__title">October 2023</h3>
+                                    <span class="timeline__subtitle">Started my MSc degree</span>
+                                </div>
+                                <div>
+                                    <span class="timeline__rounder"></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!--============= SERVICES =============-->
+
+            <section class="services section" id="services">
+                <h2 class="section__title">Services</h2>
+                <span class="section__subtitle">What I offer!</span>
+                <div class="services__container container grid">
+
+                    <!--============= SERVICE 1 =============-->
+
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-brain services__icon"></i>
+                            <h3 class="services__title">Data Science</h3>
+                        </div>
+                        <span class="button button--flex button--small button--link services__button">
+                            View more
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Data Science</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I gather the necessary data to address the issue at hand.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I refine the data by removing redundant, missing, duplicated, and extraneous information.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I identify patterns and trends within the data.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I create a data model to effectively solve a given problem.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--============= SERVICE 2 =============-->
+
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-arrow services__icon"></i>
+                            <h3 class="services__title">MLOps</h3>
+                        </div>
+                        <span class="button button--flex button--small button--link services__button">
+                            View more
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">MLOps</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Build, deploy and secure an API.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Manage, orchestrate and automate tasks within applications.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Monitor Artificial Intelligence models used in prooduction.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--============= SERVICE 3 =============-->
+
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-presentation-line services__icon"></i>
+                            <h3 class="services__title">Data Product Management</h3>
+                        </div>
+                        <span class="button button--flex button--small button--link services__button">
+                            View more
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Data Product Management</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Managing a data project.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Choosing the right project management method.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Create an interactive dashboard from raw data.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Raising awareness of data culture and artificial intelligence.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--============= PORTFOLIO =============-->
+
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section__title">Portfolio</h2>
+                <span class="section__subtitle">See what I'm doing!</span>
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+            
+                        <!--============= PORTFOLIO 1 =============-->
+
+                        <div class="blog__content grid swiper-slide">
+                            <img src="./assets/img/portfolio1.jpg" alt="Blog 1" class="blog__img">
+                            <div class="blog__data">
+                                <h3 class="blog__title">PyntOfData</h3>
+                                <p class="blog__description">Identification of different blood cell types using computer vision algorithms.</p>
+                                <a href="https://github.com/fnavez" class="button button--flex button--small blog__button">
+                                    View GitHub <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+            
+                    <!-- Add Arrows -->
+
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+
+                    <!-- Add Pagination -->
+
+                    <div class="swiper-pagination"></div>
+                
+                </div>
+            </section>
+
+            <!--============= BLOG =============-->
+
+            <section class="blog section" id="blog">
+                <h2 class="section__title">Blog</h2>
+                <span class="section__subtitle"></span>
+                <div class="blog__container container swiper-container">
+                    
+                    <div class="swiper-wrapper">
+
+                        <!--============= BLOG 1 =============-->
+
+                        <div class="blog__content grid swiper-slide">
+                            <img src="./assets/img/blog1.jpg" alt="Blog 1" class="blog__img">
+                            <div class="blog__data">
+                                <h3 class="blog__title">From the lab to the code : the journey of a biologist who became a data scientist</h3>
+                                <p class="blog__description">After a career in biology, I made the leap into data science, combining my engineering expertise with the art of deciphering data to solve exciting problems.</p>
+                                <a href="https://medium.com/@fnvz" class="button button--flex button--small blog__button">
+                                    Read more
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+            
+                    <!-- Add Arrows -->
+
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+
+                    <!-- Add Pagination -->
+
+                    <div class="swiper-pagination"></div>
+                    
+                </div>
+            </section>
+
+            <!--============= CONTACT ME =============-->
+
+            <section class="contact section" id="contact">
+                <h2 class="section__title">Contact me</h2>
+                <span class="section__subtitle"></span>
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <span class="contact__subtitle">frederic.navez@instantai.dev</span>
+                            </div>
+                        </div>
+                        <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Phone</h3>
+                                <span class="contact__subtitle">+1 647-875-1826</span>
+                            </div>
+                        </div>
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Location</h3>
+                                <span class="contact__subtitle">Toronto, ON, Canada</span>
+                            </div>
+                        </div>
+                    </div>
+                    <form action="https://formsubmit.co/frederic.navez@instantai.dev" method="POST" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label class="contact__label">Full Name</label>
+                                <input type="text" class="contact__input" required>
+                            </div>
+                            <div class="contact__content">
+                                <label class="contact__label">Email</label>
+                                <input type="email" class="contact__input" required>
+                            </div>
+                        </div>
+                        <div class="contact__content">
+                            <label class="contact__label">Message</label>
+                            <textarea cols="0" rows="11" class="contact__input"></textarea>
+                        </div>
+                        <div>
+                            <a href="#" class="button button--flex">
+                                Send Message
+                                <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+        </main>
+
+        <!--============= FOOTER =============-->
+
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Instant AI</h1>
+                        <span class="footer__subtitle">Machine Learning Engineer</span>
+                    </div>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#services" class="footer__link">Services</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="footer__link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#blog" class="footer__link">Blog</a>
+                        </li>
+                    </ul>
+                    <div class="footer__socials">
+                        <a href="https://www.linkedin.com/in/frederic-navez/" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://twitter.com/frederic_navez" target="_blank" class="footer__social">
+                            <i class="uil uil-twitter-alt"></i>                        
+                        </a>
+                        <a href="https://github.com/fnavez" target="_blank" class="footer__social">
+                            <i class="uil uil-github-alt"></i>                        
+                        </a>
+                    </div>
+                </div>
+                <p class="footer__copy">All rights reserved &#169; Instant AI | 2023</p>
+            </div>
+        </footer>
+        
+    </div>
+
+    <!--============= SCROLL UP =============-->
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--============= SWIPER JS =============-->
+
+    <script src="./js/swiper-bundle.min.js"></script>
+
+    <!--============= MAIN JS =============-->
+
+    <script src="./js/main.js" defer></script> 
+
+</body>
+
+</html>  
